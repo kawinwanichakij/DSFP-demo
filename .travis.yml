@@ -5,7 +5,7 @@ python:
  
 # command to install dependencies
 install:
-  - pip install --update setuptools
+  - pip install --upgrade setuptools
   - pip install astroquery astropy
 # command to run tests
 script: py.test dsfp
