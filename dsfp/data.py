@@ -1,3 +1,5 @@
+import astropy
+import astroquery
 from astroquery.sdss import SDSS
 def get_photometry(N=10000):
     """Get photometry from the SDSS Database
